@@ -1,5 +1,4 @@
 
-// Custom Cursor — desktop only
 const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
@@ -26,7 +25,7 @@ if (!isTouchDevice) {
   ring.style.display = 'none';
 }
 
-// Hamburger Menu
+
 function toggleMenu() {
   document.getElementById('hamburger').classList.toggle('open');
   document.getElementById('mobileMenu').classList.toggle('open');
@@ -38,7 +37,7 @@ function closeMenu() {
   document.body.style.overflow = '';
 }
 
-// Particles
+
 const particlesEl = document.getElementById('particles');
 for (let i = 0; i < 25; i++) {
   const p = document.createElement('div');
@@ -54,7 +53,6 @@ for (let i = 0; i < 25; i++) {
   particlesEl.appendChild(p);
 }
 
-// Scroll Reveal with IntersectionObserver
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -70,7 +68,7 @@ document.querySelectorAll('.reveal-card').forEach((el, i) => {
   observer.observe(el);
 });
 
-// 3D Tilt on cards
+
 document.querySelectorAll('.card').forEach(card => {
   card.addEventListener('mousemove', e => {
     const rect = card.getBoundingClientRect();
@@ -87,14 +85,14 @@ document.querySelectorAll('.card').forEach(card => {
   });
 });
 
-// Parallax on scroll
+
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
   const grid = document.querySelector('.hero-grid');
   if (grid) grid.style.transform = `perspective(600px) rotateX(20deg) translateY(${scrollY * 0.3}px)`;
 });
 
-// Form Submit
+
 function submitForm() {
   const fname = document.getElementById('fname').value;
   const email = document.getElementById('email').value;
