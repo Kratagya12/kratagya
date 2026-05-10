@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VGU-Sunstone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">Sunstone <span>| VGU Jaipur</span></div>
+        <div class="nav-links">
+            <a href="#team">Team</a>
+            <a href="#clubs">Clubs</a>
+            <a href="#query">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#team" onclick="closeMenu()">Team</a>
+        <a href="#clubs" onclick="closeMenu()">Clubs</a>
+        <a href="#query" onclick="closeMenu()">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Vivekananda Global University · Jaipur</div>
+            <h1 class="hero-title">Sun<span class="gold">stone</span></h1>
+            <p class="hero-sub">Empowering Future Leaders</p>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <div class="parallax-divider"></div>
+
+    <!-- TEAM SECTION -->
+    <section id="team" class="team-bg">
+        <div class="section-header">
+            <div class="section-tag reveal">Our Team</div>
+            <h2 class="section-title reveal">The People Behind<br><em>Excellence</em></h2>
+            <div class="section-line reveal"></div>
+        </div>
+
+        <div class="team-grid">
+
+            <!-- Pushpendra Mudgal -->
+            <div class="card reveal-card" style="transition-delay: 0.0s;">
+                <div class="card-avatar">
+                    <img src="images/PM.jpeg" alt="Kratagya Mishra">
+                </div>
+                <div class="card-body">
+                    <div class="card-role">Experience Head</div>
+                    <div class="card-name">Pushpendra Mudgal</div>
+                    <div class="card-info">
+                        <div class="info-row">
+                            <div class="info-icon">✉</div>
+                            <a href="mailto:pushpendra.mudgal@sunstone.in">pushpendra.mudgal@sunstone.in</a>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon">📞</div>
+                            <span>+91 98765 00001</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vikram Singh -->
+            <div class="card reveal-card" style="transition-delay: 0.1s;">
+                <div class="card-avatar">
+                    <img src="images/VS.jpeg" alt="Kratagya Mishra">
+                </div>
+                <div class="card-body">
+                    <div class="card-role">Campus Head</div>
+                    <div class="card-name">Vikram Singh</div>
+                    <div class="card-info">
+                        <div class="info-row">
+                            <div class="info-icon">✉</div>
+                            <a href="mailto:vikram.singh@sunstone.in">vikram.singh@sunstone.in</a>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon">📞</div>
+                            <span>+91 98765 00002</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rajat Kumawat -->
+            <div class="card reveal-card" style="transition-delay: 0.4s; grid-column: span 1;">
+                <div class="card-avatar">
+                    <img src="images/RJ.jpeg" alt="Kratagya Mishra">
+                </div>
+                <div class="card-body">
+                    <div class="card-role">Asst. Professor & Timetable Coordinator</div>
+                    <div class="card-name">Rajat Kumawat</div>
+                    <div class="card-info">
+                        <div class="info-row">
+                            <div class="info-icon">✉</div>
+                            <a href="mailto:rajat.kumawat@sunstone.in">rajat.kumawat@sunstone.in</a>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon">📞</div>
+                            <span>+91 98765 00005</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kratagya Mishra -->
+            <div class="card reveal-card" style="transition-delay: 0.2s;">
+                <div class="card-avatar">
+                    <img src="images/km.png" alt="Kratagya Mishra">
+                </div>
+                <div class="card-body">
+                    <div class="card-role">Assistant Professor</div>
+                    <div class="card-name">Kratagya Mishra</div>
+                    <div class="card-info">
+                        <div class="info-row">
+                            <div class="info-icon">✉</div>
+                            <a href="mailto:kratagya.mishra@sunstone.in">kratagya.mishra@sunstone.in</a>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon">📞</div>
+                            <span>7357436530</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Juhi Singh -->
+            <div class="card reveal-card" style="transition-delay: 0.3s;">
+                <div class="card-avatar">
+                    <img src="images/JS2.jpeg" alt="Kratagya Mishra">
+                </div>
+                <div class="card-body">
+                    <div class="card-role">Assistant Professor</div>
+                    <div class="card-name">Juhi Singh</div>
+                    <div class="card-info">
+                        <div class="info-row">
+                            <div class="info-icon">✉</div>
+                            <a href="mailto:juhi.singh@sunstone.in">juhi.singh@sunstone.in</a>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon">📞</div>
+                            <span>+91 98765 00004</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <div class="parallax-divider"></div>
+
+    <!-- CLUBS SECTION -->
+    <section id="clubs" class="clubs-bg">
+        <div class="section-header">
+            <div class="section-tag reveal">Campus Life</div>
+            <h2 class="section-title reveal">Student <em>Clubs</em></h2>
+            <div class="section-line reveal"></div>
+        </div>
+
+        <div class="clubs-grid">
+
+            <!-- Sports Club -->
+            <div class="club-card reveal-card" style="transition-delay:0s;">
+                <div class="club-bg club-sports"></div>
+                <div class="club-pattern"></div>
+                <div class="club-content">
+                    <span class="club-icon">🏆</span>
+                    <div class="club-tag">Athletics & Fitness</div>
+                    <div class="club-name">Sports Club</div>
+                    <div class="club-desc">Fostering teamwork, discipline and athletic excellence. From cricket to
+                        badminton, we celebrate every sporting spirit on campus.</div>
+                    <div class="club-events">
+                        <div class="club-event"><span class="event-dot"></span>Inter-College Cricket Tournament</div>
+                        <div class="club-event"><span class="event-dot"></span>Annual Sports Meet & Marathon</div>
+                        <div class="club-event"><span class="event-dot"></span>Badminton & Table Tennis League</div>
+                        <div class="club-event"><span class="event-dot"></span>Yoga & Fitness Bootcamp</div>
+                    </div>
+                </div>
+                <div class="club-overlay"></div>
+            </div>
+
+            <!-- Cultural Club -->
+            <div class="club-card reveal-card" style="transition-delay:0.1s;">
+                <div class="club-bg club-cultural"></div>
+                <div class="club-pattern"></div>
+                <div class="club-content">
+                    <span class="club-icon">🎭</span>
+                    <div class="club-tag">Arts & Expression</div>
+                    <div class="club-name">Cultural Club</div>
+                    <div class="club-desc">A vibrant space where art, dance, music and drama converge. Celebrating
+                        India's rich cultural heritage while embracing global creativity.</div>
+                    <div class="club-events">
+                        <div class="club-event"><span class="event-dot"></span>Nukkad Natak – Street Play Festival</div>
+                        <div class="club-event"><span class="event-dot"></span>Sunstone Sangeet Night</div>
+                        <div class="club-event"><span class="event-dot"></span>Rangoli & Art Exhibition</div>
+                        <div class="club-event"><span class="event-dot"></span>Diwali & Holi Celebrations</div>
+                    </div>
+                </div>
+                <div class="club-overlay"></div>
+            </div>
+
+            <!-- Tech Club -->
+            <div class="club-card reveal-card" style="transition-delay:0.2s;">
+                <div class="club-bg club-tech"></div>
+                <div class="club-pattern"></div>
+                <div class="club-content">
+                    <span class="club-icon">⚡</span>
+                    <div class="club-tag">Innovation & Technology</div>
+                    <div class="club-name">Tech Club</div>
+                    <div class="club-desc">Where coders, designers and dreamers build the future. Hackathons, workshops
+                        and tech talks fuel the innovation engine at VGU.</div>
+                    <div class="club-events">
+                        <div class="club-event"><span class="event-dot"></span>24-hr Hackathon – CodeStorm</div>
+                        <div class="club-event"><span class="event-dot"></span>AI/ML Workshop Series</div>
+                        <div class="club-event"><span class="event-dot"></span>Web Dev Bootcamp</div>
+                        <div class="club-event"><span class="event-dot"></span>Tech Talks by Industry Leaders</div>
+                    </div>
+                </div>
+                <div class="club-overlay"></div>
+            </div>
+
+            <!-- Management Club -->
+            <div class="club-card reveal-card" style="transition-delay:0.3s;">
+                <div class="club-bg club-mgmt"></div>
+                <div class="club-pattern"></div>
+                <div class="club-content">
+                    <span class="club-icon">💼</span>
+                    <div class="club-tag">Business & Leadership</div>
+                    <div class="club-name">Management Club</div>
+                    <div class="club-desc">Shaping tomorrow's business leaders through case studies, simulations and
+                        live industry projects. Where strategy meets execution.</div>
+                    <div class="club-events">
+                        <div class="club-event"><span class="event-dot"></span>Business Plan Competition</div>
+                        <div class="club-event"><span class="event-dot"></span>Mock Shark Tank – Pitch Perfect</div>
+                        <div class="club-event"><span class="event-dot"></span>Guest Lectures by CEOs & Founders</div>
+                        <div class="club-event"><span class="event-dot"></span>Case Study Championship</div>
+                    </div>
+                </div>
+                <div class="club-overlay"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="parallax-divider"></div>
+
+    <!-- QUERY FORM -->
+    <section id="query" class="form-bg">
+        <div class="section-header">
+            <div class="section-tag reveal">Get In Touch</div>
+            <h2 class="section-title reveal">Send Us a <em>Query</em></h2>
+            <div class="section-line reveal"></div>
+        </div>
+
+        <div class="form-container reveal-card">
+            <div class="form-inner">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" placeholder="Arjun" id="fname">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Sharma" id="lname">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="your@email.com" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="+91 98765 XXXXX" id="phone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Department / Club</label>
+                    <select id="dept">
+                        <option value="">Select a category</option>
+                        <option>Academic – General Query</option>
+                        <option>Sports Club</option>
+                        <option>Cultural Club</option>
+                        <option>Tech Club</option>
+                        <option>Management Club</option>
+                        <option>Campus Facilities</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea rows="5" placeholder="Type your message or query here..." id="message"></textarea>
+                </div>
+                <button class="submit-btn" onclick="submitForm()">Send Query →</button>
+                <div class="success-msg" id="successMsg">✦ Thank you! Your query has been received. We'll respond within
+                    24 hours.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">Sunstone · VGU Jaipur</div>
+        <div class="footer-copy">© Kratagya Mishra. All rights reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
