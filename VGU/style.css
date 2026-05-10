@@ -29,7 +29,6 @@ body {
     cursor: none;
 }
 
-/* Custom Cursor */
 .cursor {
     width: 12px;
     height: 12px;
@@ -56,7 +55,7 @@ body {
     opacity: 0.6;
 }
 
-/* Noise overlay */
+
 body::before {
     content: '';
     position: fixed;
@@ -67,7 +66,7 @@ body::before {
     opacity: 0.4;
 }
 
-/* NAV */
+
 nav {
     position: fixed;
     top: 0;
@@ -113,7 +112,6 @@ nav {
     color: var(--gold);
 }
 
-/* HERO */
 .hero {
     height: 100vh;
     display: flex;
@@ -242,7 +240,7 @@ nav {
     }
 }
 
-/* SECTIONS */
+
 section {
     position: relative;
     z-index: 1;
@@ -301,7 +299,7 @@ section {
     transform: scaleX(1);
 }
 
-/* PEOPLE / TEAM */
+
 .team-bg {
     background: linear-gradient(to bottom, var(--dark), var(--deep), var(--dark));
     padding-bottom: 120px;
@@ -370,7 +368,7 @@ section {
     transition: transform 0.5s ease;
 }
 
-/* hover zoom effect */
+
 .card:hover .card-avatar img {
     transform: scale(1.05);
 }
@@ -405,7 +403,7 @@ section {
     padding: 6px;
 }
 
-/* IMAGE */
+
 .avatar-initials img {
     width: 100%;
     height: 100%;
@@ -479,7 +477,7 @@ section {
     color: var(--gold);
 }
 
-/* CLUBS */
+
 .clubs-bg {
     background: var(--deep);
     padding-bottom: 120px;
@@ -818,7 +816,7 @@ section {
     margin-top: 16px;
 }
 
-/* FOOTER */
+
 footer {
     border-top: 1px solid rgba(201, 168, 76, 0.1);
     padding: 40px 60px;
@@ -841,7 +839,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/* PARALLAX DIVIDER */
+
 .parallax-divider {
     height: 2px;
     background: linear-gradient(to right, transparent, var(--gold), transparent);
@@ -849,7 +847,7 @@ footer {
     margin: 0;
 }
 
-/* Floating particles */
+
 .particles {
     position: fixed;
     inset: 0;
@@ -949,7 +947,7 @@ footer {
     color: var(--gold);
 }
 
-/* Tablet */
+
 @media (max-width: 1024px) {
     .team-grid {
         padding: 0 40px;
@@ -964,7 +962,7 @@ footer {
     }
 }
 
-/* Mobile */
+
 @media (max-width: 768px) {
     body {
         cursor: auto;
